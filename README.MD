@@ -15,7 +15,7 @@ use **Monocular Depth Estimation** model [**MiDaS**](https://github.com/isl-org/
 ![背景高斯模糊](images/samples/04.png)
 ![人物马赛克](images/samples/05.png)
 
-## plane:
+## plan:
 . segmentation filter(GPU)<br>
 . stream to<br>
 . sends frames to a virtual camera

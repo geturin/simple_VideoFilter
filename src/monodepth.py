@@ -36,7 +36,7 @@ def run(background_path:str,filter_target:int):
             ).squeeze()
 
         output_msk = 1/prediction.cpu().numpy()
-        video_filter.filter_img(frame,None,output_msk,filter_target)
+        video_filter.filter_img(frame,bg,output_msk,filter_target)
         cv2.imshow("filter",frame)
         cv2.waitKey(1)
 

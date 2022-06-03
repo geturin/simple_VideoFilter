@@ -1,4 +1,4 @@
-from src.segmentation import *
+from segmentation import *
 
 img_filter=segmentation_filter()
 
